@@ -11,4 +11,9 @@ public class ToString {
         System.out.println(obj.toString());
         System.out.println("plus "+obj);
     }
+
+    @Override
+    public String toString() {
+        return "ToString class";
+    }
 }
